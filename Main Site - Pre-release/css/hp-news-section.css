@@ -1,0 +1,48 @@
+#news {
+	scroll-behavior: smooth;
+	padding: 3% 0;
+	background-color: #ff477f;
+	background-image: url(../media/NewsInfoSection.webp);
+	min-height: 50vh; 
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	width:100%;
+	margin: 0 auto;
+}
+
+#news h2 {
+	font-family: 'kanit', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 5px black;
+	color: white;
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+#news h3 {
+	font-family: 'kanit', sans-serif;
+	text-align: left;
+	font-size: 3em;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+}
+
+.timelinecontainer {
+	width: 100%;
+	height: auto;
+}
+
+.newsbkg {
+	padding: 1.5% 1.5% 1.5% 1.5%;
+	opacity: 100%;
+	background: #05cafb;
+	margin-bottom: 1rem;
+	border-radius: 10px;
+}
+
