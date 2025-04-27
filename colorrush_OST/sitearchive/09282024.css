@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+  }
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+	background-color: #ff477f;
+	background-image: linear-gradient(rgba(255, 71, 127, 0.75), rgba(255, 71, 127, 1)),url(../GX0oEmIbYAAf84d.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: 20px auto;
+}
+
+.card{
+	text-align: center;
+}
