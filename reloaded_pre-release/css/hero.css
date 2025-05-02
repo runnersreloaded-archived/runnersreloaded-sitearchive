@@ -1,0 +1,101 @@
+#Hero-Section {
+	position: relative;
+	background-image: url(../media/Hero_Img.webp);
+	background-size: cover;
+	background-position: top left;
+	text-align: left;
+	background-color: #ff477f;
+}
+
+.hero-group {
+	left: 3%;
+	padding: 8% 0;
+	position: relative;
+	text-align: left;
+	width: 95%;
+}
+
+.hero-group img {
+	max-width: 100%;
+	height: auto;
+	animation: floatIn 1s ease-in-out;
+	margin-bottom: 20px;
+	pointer-events: none;
+
+}
+
+@keyframes floatIn {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.hero-group h4 {
+	font-family: 'kanit', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: whitesmoke;
+	font-size: 3rem;
+	letter-spacing: 1.5px;
+	text-shadow: 2px 2px 5px black;
+	opacity: 0;
+	transform: translateX(-50px);
+	animation: revealFromLeft 1s forwards;
+	-webkit-text-stroke: 2px black;
+}
+
+@keyframes revealFromLeft {
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.hero-group button {
+	font-family: 'kanit', sans-serif;
+	letter-spacing: 2.5px;
+	font-size: 20px;
+	max-width: 100%;
+	opacity: 0;
+	transform: translateX(-100px);
+	animation: revealFromLeft 1s forwards;
+	animation-delay: 0.5s;
+	box-shadow: 2px 2px 5px black;
+	border: 2px solid black;
+}
+
+#v141error p {
+	font-family: 'Kanit', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+div.modal {
+	font-family: 'Kanit', sans-serif;
+	font-size: 18px;
+}
+
+#delayedMarquee {
+	font-family: 'kanit', sans-serif;
+	text-align: center;
+}
+
+#delayedMarquee #mobile {
+	display: none;
+}
+
+@media (max-width: 575.98px) {
+	#delayedMarquee #desktop {
+		display: none;
+	}
+
+	#delayedMarquee #mobile {
+		display: block;
+	}
+}
