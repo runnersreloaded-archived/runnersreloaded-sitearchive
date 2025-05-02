@@ -5,6 +5,7 @@
 - v2 - https://srreloadedsite-archive.pages.dev/reloaded_main/index_v2prerelease
 
 - Prerelease - https://srreloadedsite-archive.pages.dev/reloaded_pre-release/
+- wixsite redirect - https://srreloadedsite-archive.pages.dev/reloaded_main/index_wixredirect.html
 
 ## Color Rush Microsite
 ### Current Version
