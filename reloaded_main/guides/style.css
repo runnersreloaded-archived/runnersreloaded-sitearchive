@@ -1,0 +1,115 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and layout */
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transition: 0.3s;
+  }
+  
+  .sidebar nav ul {
+    list-style-type: none;
+  }
+  
+  .sidebar nav ul li {
+    padding: 0.5em;
+  }
+  
+  .sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .sidebar nav ul li a:hover {
+    background-color: #575757;
+  }
+  
+  .main-content {
+    margin-left: 250px;
+    flex-grow: 1;
+  }
+  
+  .menu-btn {
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .close-btn {
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    display: none;
+  }
+  
+  footer{
+    background-color: #575757;
+    color: white;
+    border-top: #fff solid 5px;
+    padding: 3%;
+  }
+
+  .instruction li{
+    padding:0.5em;
+  }
+
+  .SRRini{
+    font-weight: bold;
+    color: blue;
+  }
+
+  /* Mobile responsive styling */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 0;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: -250px;
+      transition: 0.3s;
+    }
+  
+    .main-content {
+      margin-left: 0;
+    }
+  
+    .menu-btn, .close-btn {
+      display: block;
+    }
+  
+    .sidebar.open {
+      left: 0;
+      width: 250px;
+    }
+  
+    .main-content {
+      margin-left: 0;
+    }
+  }
+  
