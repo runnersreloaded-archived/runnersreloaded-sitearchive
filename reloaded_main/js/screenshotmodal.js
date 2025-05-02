@@ -40,7 +40,7 @@ window.onclick = function(event) {
   }
 }
 
-/*
+
 //Fancybox JS 
 Fancybox.bind('[data-fancybox]', {
   hideScrollbar:false
@@ -65,6 +65,6 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-*/
+
 
   
